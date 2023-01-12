@@ -1,0 +1,33 @@
+{
+  "name": "boats_api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/timothyjamesmarias/boats_api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/timothyjamesmarias/boats_api/issues"
+  },
+  "homepage": "https://github.com/timothyjamesmarias/boats_api#readme",
+  "dependencies": {
+    "@google-cloud/datastore": "^6.6.2",
+    "axios": "^0.27.2",
+    "body-parser": "^1.20.0",
+    "dotenv": "^16.0.1",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "express-openid-connect": "^2.7.2",
+    "json-to-html": "^0.1.2",
+    "nodemon": "^2.0.16",
+    "request": "^2.88.2"
+  }
+}
